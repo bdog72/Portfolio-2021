@@ -10,12 +10,15 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <script src="app.js" defer></script>
     <title>Portfolio-2020</title>
   </head>
   <body>
     <header>
       <div class="logo">
-        <!-- <img src="./img/profile1-pic.jpg" alt="" /> -->
+        <!-- <i class="fas fa-code fa-7x"></i>
+        <i class="fas fa-laptop-code fa-6x"></i>
+        <i class="fas fa-code fa-7x"></i> -->
       </div>
       <button class="nav-toggle" aria-label="toggle navigation">
         <span class="hamburger"></span>
@@ -56,6 +59,21 @@
       <h2 class="section__title section__title--services">What I do</h2>
       <div class="services">
         <div class="service">
+          <i class="fab fa-html5 fa-7x"></i>
+        </div>
+        <div class="service">
+          <i class="fab fa-css3 fa-7x"></i>
+        </div>
+        <div class="service">
+          <i class="fab fa-js-square fa-7x"></i>
+        </div>
+        <div class="service">
+          <i class="fab fa-react fa-7x"></i>
+        </div>
+        <div class="service">
+          <i class="fab fa-bootstrap fa-7x"></i>
+        </div>
+        <!-- <div class="service">
           <h3>Design + Development</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
@@ -78,7 +96,7 @@
             veniam provident adipisci nisi quam reprehenderit accusamus modi eos
             fuga accusantium!
           </p>
-        </div>
+        </div> -->
       </div>
       <a href="#work" class="btn">My Work</a>
     </section>
@@ -113,10 +131,27 @@
 
     <!-- My Work -->
     <section class="my-work" id="work">
-      <h2 class="section__title">My work</h2>
-      <p class="section__subtitle"></p>
+      <h2 class="section__title section__title--work">
+        My Current GitHub Chart
+      </h2>
+      <p class="section__subtitle section__subtitle--work">
+        <!-- A selection of my range of work -->
+        Click On My Chart To Visit My GitHub
+      </p>
 
-      <div class="portfolio">
+      target="__blank"
+      <a
+        href="https://github.com/bdog72"
+        class="github-anchor"
+        target="__blank"
+      >
+        <img
+          src="https://ghchart.rshah.org/bdog72"
+          alt="github chart"
+          class="github-chart__img"
+        />
+      </a>
+      <!-- <div class="portfolio">
         <a href="" class="portfolio__item">
           <img src="./img/profile1-pic.jpg" alt="" class="portfolio__img" />
         </a>
@@ -135,23 +170,11 @@
         <a href="" class="portfolio__item">
           <img src="./img/profile1-pic.jpg" alt="" class="portfolio__img" />
         </a>
-        <a href="" class="portfolio__item">
-          <img src="./img/profile1-pic.jpg" alt="" class="portfolio__img" />
-        </a>
-        <a href="" class="portfolio__item">
-          <img src="./img/profile1-pic.jpg" alt="" class="portfolio__img" />
-        </a>
-        <a href="" class="portfolio__item">
-          <img src="./img/profile1-pic.jpg" alt="" class="portfolio__img" />
-        </a>
-        <a href="" class="portfolio__item">
-          <img src="./img/profile1-pic.jpg" alt="" class="portfolio__img" />
-        </a>
-      </div>
+      </div> -->
     </section>
 
     <!-- Footer -->
-    <footer>
+    <footer class="footer">
       <a href="mailto:high5bri@hotmail.com" class="footer__link"
         >high5bri@hotmail.com</a
       >
@@ -161,28 +184,31 @@
             class="social-list__link"
             href="https://www.linkedin.com/feed/"
             target="__blank"
-            >a</a
           >
+            <i class="fab fa-linkedin"></i>
+          </a>
         </li>
         <li class="social-list__item">
           <a
             class="social-list__link"
             href="https://twitter.com/home"
             target="__blank"
-            >b</a
           >
+            <i class="fab fa-twitter"></i>
+          </a>
         </li>
         <li class="social-list__item">
           <a
             class="social-list__link"
             href="https://github.com/bdog72"
             target="__blank"
-            >c</a
           >
+            <i class="fab fa-github"></i>
+          </a>
         </li>
-        <li class="social-list__item">
+        <!-- <li class="social-list__item">
           <a class="social-list__link" href="#" target="__blank">d</a>
-        </li>
+        </li> -->
       </ul>
     </footer>
   </body>
